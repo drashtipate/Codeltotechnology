@@ -1,0 +1,961 @@
+    <!-- Owl Stylesheets -- app nd master vali file ma> 
+                <!-- <link rel="stylesheet" href="https://www.cipherhex.com/vendor/owlcarousel/assets/owl.carousel.min.css">
+                <link rel="stylesheet" href="https://www.cipherhex.com/vendor/owlcarousel/assets/owl.theme.default.min.css"> -->
+
+<!-- Owl Carousel javascript -- app nd master vali file ma>
+      <script src="https://www.cipherhex.com/vendor/owlcarousel/owl.carousel.js"></script>
+
+ <!-- Start Visual Website Optimizer Asynchronous Code --app nd master vali file ma>
+        <script type='text/javascript'>
+          var _vwo_code=(function(){
+          var account_id=388694,
+          settings_tolerance=2000,
+          library_tolerance=2500,
+          use_existing_jquery=false,
+          /* DO NOT EDIT BELOW THIS LINE */
+          f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+        </script>
+        <!-- End Visual Website Optimizer Asynchronous Code -->
+
+portfolio no section work
+
+add:
+
+header
+our strong numbers
+contact us
+footer
+
+.blue-back-img-right img {
+    width: 100%;
+    position: absolute;
+    bottom: -3rem;
+    left: 11rem;
+}
+
+.green-back-img-left img {
+    width: 85%;
+    position: absolute;
+    bottom: -42rem;
+    left: -16rem;
+}
+
+
+
+/* service section */
+.blue-back-img {
+    background-image: url(../img/servicebanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    background-position: bottom;
+}
+.blue-back-content{
+    padding: 53px 50px;
+}
+.num-img-top {
+    padding-top: 1rem;
+}
+.num-content {
+    padding-left: 20px;
+}
+.num-content h4{
+    font-weight: 700;
+    font-family: "Novecento Wide Demibold";
+    color: #fff;
+}
+.num-content p{
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.blue-back-img-right img{
+    width: 150%;
+    position: absolute;
+    bottom: 2rem;
+    left: -6rem;
+}
+
+.green-back-img {
+    background-image: url(../img/servicebanner2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    background-position: bottom;
+}
+.green-back-img-left img{
+    width: 150%;
+    position: absolute;
+    bottom: 0rem;
+    left: -17rem;
+}
+
+//section 2
+ @media (min-width: 768px){
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 992px){
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+}
+@media (min-width: 576px){
+    .col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.blue-back-img-right img{
+    width: 100%;
+    position: absolute;
+    bottom: 3rem;
+    left: 0rem;
+}
+
+.blue-back-img {
+    background-image: url(../img/servicebanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 75vh;
+    background-position: bottom;
+}
+
+.blue-back-content {
+    padding: 69px 50px;
+}
+.section-service{
+    /* background: linear-gradient(135deg, #4d5a62e8 58%,#20282fd6 85%); */
+}
+
+font-size: 390%;
+    font-family: Roboto-Light;
+    border-bottom: 2px solid #248be5;
+    line-height: 1.3;
+    padding-top: 6%;
+
+#contact section validation view file ma:
+                            @if(Session::has('success'))
+                                <div class="alert alert-success">
+                                    {{Session::get('success')}}
+                                    <button type="button" class="close" data-dismiss="alert" style="border:none; outline:none;">×</button> 
+                                </div>
+                            @endif 
+                            @if(Session::has('error'))
+                                <div class="alert alert-danger">
+                                    {{Session::get('error')}}
+                                    <button type="button" class="close" data-dismiss="alert" style="border:none; outline:none;">×</button> 
+                                </div>
+                            @endif
+
+recaptcha link:
+https://www.tutsmake.com/laravel-9-google-recaptcha-v3-tutorial-with-example/
+
+<!-- Particles JavaScript -->
+    <script src="https://www.cipherhex.com/vendor/particles/particles.js"></script> 
+<!-- Custom JavaScript -->
+      <script src="https://www.cipherhex.com/vendor/custom/custom.js"></script>
+
+      
+//service left section::
+<div class="section section-service service-left">
+        <div class="container-service" style="margin:0%;">
+            <div class="row blue-back-img">
+
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="green-back-img-left">
+                        <img src="https://www.juegostudio.com/wp-content/uploads/2023/06/mobile-development-character-2.webp" alt="game development">
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-12 col-sm-12">
+
+                    <div class="d-flex blue-back-content">
+                        <div class="num-img-top">
+                            <img src="{{asset ('img/UD_ServiceCountNo03.png')}}">
+                        </div>
+                        <div class="num-content">
+                            <h4>
+                                iOS GAME DEVELOPMENT 
+                            </h4>
+                            <p>
+                            We design mobile games that are engaging, highly interactive, and addictive.
+
+                            TheAppGuruz is a leading iOS game development agency, which knows how to produce entertaining games of iPhone and iPad devices.
+
+                            Also, we develop cross platform gaming apps.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex blue-back-content">
+                        <div class="num-img-top">
+                            <img src="{{asset ('img/UD_ServiceCountNo04.png')}}">
+                        </div>
+                        <div class="num-content">
+                            <h4>
+                                AR/VR GAME DEVELOPMENT
+                            </h4>
+                            <p>
+                            AR and VR games blurs the line between reality and computer generated graphics.
+
+                            TheAppGuruz has team of talented designers and coders working with AR and VR games.
+
+                            We can developed Geo-location based games, AR Sports, RPGs and FPS games with these technologiesz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>               
+        </div>
+</div>  
+
+
+
+<!-- services section 2 -design valo first time kryo te -->
+<div class="section">
+    <div class="container">
+
+        <div class="product_container inner_section">
+            <div class="container">
+                <div class="row green-back-img">
+
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="green-back-img-left">
+                            <img src="https://www.juegostudio.com/wp-content/uploads/2023/06/mobile-development-character-2.webp" alt="game development">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+
+                        <div class="d-flex blue-back-content">
+                            <div class="num-img-top">
+                                <img src="{{asset ('img/UD_ServiceCountNo03.png')}}">
+                            </div>
+                            <div class="num-content">
+                                <h4>
+                                    iOS GAME DEVELOPMENT 
+                                </h4>
+                                <p>
+                                We design mobile games that are engaging, highly interactive, and addictive.
+
+                                TheAppGuruz is a leading iOS game development agency, which knows how to produce entertaining games of iPhone and iPad devices.
+
+                                Also, we develop cross platform gaming apps.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex blue-back-content">
+                            <div class="num-img-top">
+                                <img src="{{asset ('img/UD_ServiceCountNo04.png')}}">
+                            </div>
+                            <div class="num-content">
+                                <h4>
+                                    AR/VR GAME DEVELOPMENT
+                                </h4>
+                                <p>
+                                AR and VR games blurs the line between reality and computer generated graphics.
+
+                                TheAppGuruz has team of talented designers and coders working with AR and VR games.
+
+                                We can developed Geo-location based games, AR Sports, RPGs and FPS games with these technologiesz.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div> 
+
+
+
+//31-7-2023
+database table filed ma img insert path = upload/abouticon/requirement_finalization.png
+
+about making of great game section 2::
+@forelse ($aboutTitle as $abouttitles)
+            <div class="col-md-12">
+                <h2 class="main_titles_black">
+                    <span class="roboto_bold_text"> {{$abouttitles->configVal}} </span>
+                </h2>
+
+                <div class="main_titles_subline">
+                    {{$abouttitles->configVal}}
+                </div>
+            </div>
+            @empty
+            <div class="">
+                <h5>No about/why us Available</h5>
+            </div>
+@endforelse 
+
+//1-8-2023
+contact form reCAPTCHA:
+step1. google.com/recaptcha --link open your browser
+    2. label name: localhost
+    3. recaptcha type: challenge(v2) aema click kri ne first click krvu "I'm not a robot" Checkbox
+    4. domains ma 127.0.0.1
+    5. submit
+    6. 2 key copy kri ne .env file paste krvi  RECAPTCHA_SITE_KEY:  RECAPTCHA_SECRET_KEY:
+        7. composer require anhskohbo/no-captcha --cmd ma run krvu
+        8. Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class, --config/app.php ma serviceprovider vala part ma add krvu
+        9. 'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class, --config/app.php ma aliases vala part ma add krvu
+        10. php artisan vendor:publish --provider="Anhskohbo\NoCaptcha\NoCaptchaServiceProvider" -- cmd ma run krvu/publishing krvu
+        11.  {!! NoCaptcha::renderJs() !!} blade file ma add krvu
+        12.  {!! NoCaptcha::display() !!} blade file ma add krvu
+     or
+        7. <script src="https://www.google.com/recaptcha/api.js" async defer></script> --head tag ma add 
+        8. <div class="g-recaptcha" data-sitekey="your_site_key"></div> --blade file ma    
+
+        
+    //8-8-23
+    contact email sent in gmail:
+    1. .env file ma MAIL_HOST= smtp.gmail.com
+                    MAIL_PORT= 587
+                    MAIL_USERNAME= youremail@gmail.com
+                    MAIL_PASSWORD= app_password generate 
+                    MAIL_ENCRYPTION=tls
+                    MAIL_FROM_ADDRESS=youremail@gmail.com or null koi b add kri sakay
+
+    2. config/mail.php ma 'mailers'=>[
+                                'smtp'=> [ 
+                                    'verify_peer' => false, 
+                                ],
+                            ]  aa add krvu
+
+    3. controller ma code send mail to admin
+    4. nd gmail ma data show mate view file create.
+
+
+
+
+
+#service section          
+        <div class="container">
+            <div class="col-md-12">
+                <h2 class="main_titles_white" style="color:#fff;">
+                    <span class="roboto_bold_text">{{ substr($serviceTitle, 0, strpos($serviceTitle, ' ')) }}</span>{{ substr($serviceTitle, strpos($serviceTitle, ' ')) }}
+                </h2>
+
+                <div class="main_titles_subline">
+                        {{ $serviceSubTitle }}
+                </div>
+            </div>
+        </div>  
+<div class="col-lg-7 col-md-12 col-sm-12">
+
+                        <div class="d-flex blue-back-content wow animate__animated animate__fadeInLeft animate__delay-0.5s">
+                                <div class="num-img-top">
+                                    <!-- <img src="{{asset ('img/UD_ServiceCountNo01.png')}}"> -->
+                                    <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">1</h1>
+                                </div>
+                                <div class="num-content">
+                                    <h4>
+                                        2D & 3D MOBILE GAME DEVELOPMENT
+                                    </h4>
+                                    <p>
+                                    Our 2D & 3D games erase the borderline between reality and gaming.
+
+                                    Our passion, skill and our experience makes us one of the best mobile game developement companies of India
+
+                                    Why not get in touch right now? Let's talk.
+                                    </p>
+                                </div>
+                        </div>
+
+                        <div class="d-flex blue-back-content wow animate__animated animate__fadeInLeft animate__delay-1s">
+                                <div class="num-img-top">
+                                    <!-- <img src="{{asset ('img/UD_ServiceCountNo02.png')}}"> -->
+                                    <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">2</h1>
+                                </div>
+                                <div class="num-content">
+                                    <h4>
+                                        ANDROID GAME DEVELOPMENT
+                                    </h4>
+                                    <p>
+                                    We use Unity game engine to develop Android Mobile Games.
+
+                                    End-to-end robust game development of games for Android smartphones, tables and TV.
+
+                                    Our deep understanding of game designing and mastery game engine make us the top Android game development company.
+                                    </p>
+                                </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="blue-back-img-right">
+                            <img src="https://www.juegostudio.com/wp-content/uploads/2023/06/mobile-development-character-1.webp" class="wow animate__animated animate__fadeInUp animate__delay-1s" alt="game development">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="blue-back-img-right">
+                                <img src="{{asset('img/mobile-development-character-1.webp')}}" class="wow animate__animated animate__fadeInUp animate__delay-1s" alt="game development">
+                            </div>
+                    </div>
+
+
+////LEFT SERVICE
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="green-back-img-left">
+                            <img src="https://www.juegostudio.com/wp-content/uploads/2023/06/mobile-development-character-2.webp" class="wow animate__animated animate__fadeInUp  animate__delay-1s" alt="game development">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="green-back-img-left">
+                            <img src="{{asset('img/mobile-development-character-2.webp')}}" class="wow animate__animated animate__fadeInUp  animate__delay-1s" alt="game development">
+                        </div>
+                    </div>
+
+                  <div class="col-lg-7 col-md-12 col-sm-12">
+
+                        <div class="d-flex blue-back-content wow animate__animated animate__fadeInRight animate__delay-2.7s">
+                            <div class="num-img-top">
+                                <!-- <img src="{{asset ('img/UD_ServiceCountNo03.png')}}"> -->
+                                <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">3</h1>
+                            </div>
+                            <div class="num-content">
+                                <h4>
+                                    iOS GAME DEVELOPMENT 
+                                </h4>
+                                <p>
+                                We design mobile games that are engaging, highly interactive, and addictive.
+
+                                TheAppGuruz is a leading iOS game development agency, which knows how to produce entertaining games of iPhone and iPad devices.
+
+                                Also, we develop cross platform gaming apps.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex blue-back-content wow animate__animated animate__fadeInRight animate__delay-2.9s">
+                            <div class="num-img-top">
+                                <!-- <img src="{{asset ('img/UD_ServiceCountNo04.png')}}"> -->
+                                <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">4</h1>
+                            </div>
+                            <div class="num-content">
+                                <h4>
+                                    AR/VR GAME DEVELOPMENT
+                                </h4>
+                                <p>
+                                AR and VR games blurs the line between reality and computer generated graphics.
+
+                                TheAppGuruz has team of talented designers and coders working with AR and VR games.
+
+                                We can developed Geo-location based games, AR Sports, RPGs and FPS games with these technologiesz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+11-8-23
+#great game section
+        <div class="col-md-12">
+            <h2 class="main_titles_black">
+                <span class="roboto_bold_text"> Making of</span>
+                    a great game...
+            </h2>
+
+            <div class="main_titles_subline">
+                This is how we go about making truly awesome stuff. Everytime.
+            </div>
+        </div>
+
+                    <div class="col-md-12">
+                        <h2 class="main_titles_black">
+                            <!-- <span class="roboto_bold_text"> {{ $aboutTitle }} </span> -->
+                            <span class="roboto_bold_text">{{ substr($aboutTitle, 0, strpos($aboutTitle, ' ')) }}</span>{{ substr($aboutTitle, strpos($aboutTitle, ' ')) }}
+                
+                        </h2>
+
+                        <div class="main_titles_subline">
+                            {{ $aboutSubTitle }}
+                        </div>
+                    </div>
+
+
+
+#services section
+        <div class="container">
+            <div class="col-md-12">
+                <h2 class="main_titles_white" style="color:#fff;">
+                    <span class="roboto_bold_text"> About our</span>
+                        game developement services
+                </h2>
+
+                <div class="main_titles_subline">
+                    We make things you'll love!
+                </div>
+            </div>
+        </div>
+
+#our clients
+        <div class="col-md-12">
+            <h2 class="main_titles_black">
+                Who are our
+                <span class="roboto_bold_text">clients?</span>
+            </h2>
+
+            <div class="main_titles_subline">
+                We work with lot of different people.
+            </div>
+        </div>
+
+                <div class="col-md-4 col-sm-6 pt-3 sections">
+                    <img src="{{asset ('img/conceptuation.png')}}" class="wow animate__animated animate__fadeInUp">
+                    <h4 class="product_headings wow animate__animated animate__fadeInUp" style=" text-align: left;">
+                        Individuals
+                    </h4>
+                    <h6 class="product_details wow animate__animated animate__fadeInUp">
+                        <p style="font-size:20px; margin-bottom:22px;">
+                            <b>
+                                Opportunity to<br>
+                                earn from the $75 billion<br>
+                                gaming market<br><br>
+                            </b>
+                            Looking to make extra buck, now's the right time to invest in mobile gaming. It's bigger than pc gaming.
+                        </p>
+                        <a href=""  class="product_details_link" style="position:relative;">Learn More...</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-4 col-sm-6 pt-3 sections">
+                    <img src="{{asset ('img/requirement_finalization.png')}}">
+                    <h4 class="product_headings" style=" text-align: left;">
+                        Agencies
+                    </h4>
+                    <h6 class="product_details">
+                        <p style="font-size:20px; margin-bottom:22px;">
+                            <b>
+                                Looking For<br>
+                                mobile game<br>
+                                developement partner?<br><br>
+                            </b>
+                            It uses the best tech to build high quality games. Experienced, Fast & efficent in delivery.
+                        </p>
+                        <a href=""  class="product_details_link" style="position:relative;">Learn More...</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-4 col-sm-6 pt-3 sections">
+                    <img src="{{asset ('img/milestone_creation.png')}}">
+                    <h4 class="product_headings" style=" text-align: left;">
+                        Brands
+                    </h4>
+                    <h6 class="product_details">
+                        <p style="font-size:20px; margin-bottom:22px;">
+                            <b>
+                            Games are a<br>
+                            fun way to engage<br>
+                            with your customers.<br><br>
+                            </b>
+                            Let's spread the word about your brand by creating fun games which promotes you organically.
+                        </p>
+                        <a href=""  class="product_details_link" style="position:relative;">Learn More...</a>
+                    </h6>
+                </div> 
+
+
+#contactus section index vala page ma
+        <div class="col-md-12">
+            <h2 class="main_titles_white">
+                <span class="roboto_bold_text"> {{__('Contact') }}</span>
+                    us...
+            </h2>
+
+            <div class="main_titles_subline">
+                We’re are always in search of creative people
+            </div>
+        </div>
+
+
+                         <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3 text-white card-title">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Address :
+                                </div>
+                                <div class="col-sm-9 text-white card-title">
+                                    403, Dhara Arcade, Near Mahadev Chowk, Mota Varachha, Surat, GJ, India
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-3 text-white card-title">
+                                    <i class="fas fa-phone"></i>
+                                    Phone :                                                                 
+                                </div>
+                                <div class="col-sm-9 text-white card-title">
+                                    +91 9998-855-118, +91 9998-854-400
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-3 text-white card-title">
+                                    <i class="fas fa-envelope"></i>
+                                    Email :
+                                </div>
+                                <div class="col-sm-9 text-white card-title">
+                                    support@cipherhex.com
+                                </div>
+                            </div>
+                        </div>
+
+#contact us section..
+<div class="main_titles_subline" style="padding: 3px 20px;">
+                Fill out the form below and we'll arrange a time for a detailed discussion
+            </div>
+
+#footer section ma
+                    <ul>
+                        <li><a href="#"><i class="fa fa-compass "></i> 403, Dhara Arcade, Near Mahadev Chowk, Mota Varachha, Surat, GJ, India</a></li>
+                        <li><a href="#"><i class="fa fa-mobile"></i> +91 9998-855-118, +91 9998-854-400</a></li>
+                        <li><a href="#"><i class="fa fa-envelope-open"></i> support@cipherhex.com</a></li>
+                    </ul>
+
+//12-8-23
+                     <div class="social-icons mb-3">
+                        <a href="https://www.facebook.com/cipherhex/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/13257105/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCvAGOb2aGFO89rjNGb4ZJkQ" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+
+
+  #header 
+            <div class="banner_headings">
+                <h1 class="wow animate__animated animate__zoomIn animate__delay-0.5s">
+                    Our clients tell us <br>
+                    we're
+                    <span class="banner_span_text">
+                        more than a<br>
+                        mobile game development<br>
+                        company.
+                    </span>
+                </h1>
+                <h2 class="banner_sub_headings wow animate__animated animate__zoomIn animate__delay-1s">
+                    Because we know more than just game development & design.<br>
+                    We know how to keep gamers
+                        <b>play on for days.</b><br>
+                            We know how to convert gamers into 
+                        <b>paying users.</b>
+                    <br><br>
+                    <a href="{{ url('contactus') }}">
+                        <button class="get_in_touch_btn  btn-primary btn-lg btn-block">CONTACT US</button>
+                    </a>
+                </h2>
+            </div>
+            <img src="{{asset('img/bannerBg.jpg')}}" class="img-responsive banner_image home-b-img" alt="bannerBg">
+
+    //database mathi value ne browser pr display krvi tyre or database ma value ne br tag means newline add mate.
+        {!! nl2br(e($clienttype->content)) !!}<br>  --aa code use thay je blade file ma add krvu 
+            nl2br function aapke retrieved values mein newline characters ko <br> tags mein convert karega, aur e() function XSS attacks se bachav ke liye values ko escape karega. 
+            e(): This function is used to escape the string, making it safe for HTML output.
+            nl2br(): This function is used to insert HTML line breaks before newline characters.
+
+
+#16-8-23
+//#index file ma contact part....
+<script>
+    function message() {
+        var contact_name = document.getElementById('contact_name');
+        var contact_email = document.getElementById('contact_email');
+        var contact_subject = document.getElementById('contact_subject');
+        var contact_message = document.getElementById('contact_message');
+        const danger = document.getElementById('danger');
+
+        if(contact_name.value === '' || contact_email.value === '' || contact_subject.value === '' || contact_message.value === ''){
+            danger.style.display = 'block';
+        }else {
+
+        }
+    }
+</script>
+                        //#index file ma contact part....
+                        <div class=" alert alert-danger message">
+                            <div class="danger" id="danger" data-dismiss="alert">please enter value..</div>
+                        </div>
+                        <button type="submit" id="submit" onclick="message()" class="btn btn-primary btn-lg btn-block">{{__('SEND FEEDBACK') }}</button>
+
+#style
+.message{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 45px;
+}
+/* validation contact form */
+    .message .danger{
+        color: #941b26;
+        position: absolute;
+        font-size: 15px;
+        transition: .3s;
+        animation: buttons .3s linear;
+        display: none;
+    }
+    @keyframes buttons {
+       0% {
+        transform: scale(0.1);
+       } 
+       50% {
+        transform: scale(0.5);
+       } 
+       100% {
+        transform: scale(1);
+       } 
+    }
+
+#17-8-23 
+                //rightimg side
+                    @foreach($service as $services)
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInLeft animate__delay-0.5s">
+                                    <div class="num-img-top">
+                                        <!-- <img src="{{asset ('img/UD_ServiceCountNo01.png')}}"> -->
+                                        <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">{{ $services->serviceId }}</h1>
+                                    </div>
+                                    <div class="num-content">
+                                        <h4>
+                                           {{ $services->name }}
+                                        </h4>
+                                        <p>
+                                           {{ $services->description }}
+                                        </p>
+                                    </div>
+                            </div>
+
+                        </div>
+                    @endforeach
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInLeft animate__delay-0.5s">
+                                    <div class="num-img-top">
+                                        <!-- <img src="{{asset ('img/UD_ServiceCountNo01.png')}}"> -->
+                                        <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">1</h1> 
+                                    </div>
+                                    <div class="num-content">
+                                        <h4>
+                                           {{ $serviceName1 }}
+                                        </h4>
+                                        <p>
+                                           {{ $serviceDescription1 }}
+                                        </p>
+                                    </div>
+                            </div>
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInLeft animate__delay-1s">
+                                <div class="num-img-top">
+                                    <!-- <img src="{{asset ('img/UD_ServiceCountNo02.png')}}"> -->
+                                    <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">2</h1> 
+                                </div>
+                                <div class="num-content">
+                                    <h4>
+                                        {{ $serviceName2 }}
+                                    </h4>
+                                    <p>
+                                        {{ $serviceDescription2 }}
+                                    </p>
+                                </div>
+                            </div>
+
+                    @foreach($leftservice as $services)  
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInLeft animate__delay-0.5s">
+                                    <div class="num-img-top">
+                                        <!-- <img src="{{asset ('img/UD_ServiceCountNo01.png')}}"> -->
+                                        <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">{{ $services->serviceId }}</h1>
+                                    </div>
+                                    <div class="num-content">
+                                        <h4>
+                                           {{ $services->name }}
+                                        </h4> 
+                                        <p>
+                                           {{ $services->description }}
+                                        </p>
+                                    </div>
+                            </div>
+
+                        </div>
+                    @endforeach
+
+
+                //leftimg side
+                    @foreach($rightservice as $services)
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInRight animate__delay-2.7s">
+                                <div class="num-img-top">
+                                    <!-- <img src="{{asset ('img/UD_ServiceCountNo03.png')}}"> -->
+                                    <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">{{ $services->serviceId  }}</h1>
+                                </div>
+                                <div class="num-content">
+                                    <h4>
+                                        {{ $services->name }}
+                                    </h4>
+                                    <p>
+                                        {{ $services->description }}
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    @endforeach
+
+
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInRight animate__delay-2.7s">
+                                <div class="num-img-top">
+                                    <!-- <img src="{{asset ('img/UD_ServiceCountNo03.png')}}"> -->
+                                    <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">3</h1>
+                                </div>
+                                <div class="num-content">
+                                    <h4>
+                                        {{ $serviceName3 }}
+                                    </h4>
+                                    <p>
+                                        {{ $serviceDescription3 }}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex blue-back-content wow animate__animated animate__fadeInRight animate__delay-2.7s">
+                                <div class="num-img-top">
+                                    <!-- <img src="{{asset ('img/UD_ServiceCountNo03.png')}}"> -->
+                                    <h1 class="display-1 mt-n2 m-0" style="color:#80898f;">4</h1>
+                                </div>
+                                <div class="num-content">
+                                    <h4>
+                                        {{ $serviceName4 }}
+                                    </h4>
+                                    <p>
+                                        {{ $serviceDescription4 }}
+                                    </p>
+                                </div>
+                            </div>
+
+                    </div>
+
+
+//23-8-23
+#contact form send email je app/mail/ContactFormMail ni andar create kryu te code
+
+$data = [
+                'contact_name' => $request->contact_name,
+                'contact_email' => $request->contact_email,
+                'contact_subject' => $request->contact_subject,
+                'contact_message' => $request->contact_message,
+            ];
+    
+            Mail::to(config('drashtiv2392002@gmail.com'))->send(new ContactFormMail($data));
+    
+            return redirect()->back()->with('success', 'Your message has been sent successfully.');    
+
+
+#24-8-23
+//our strong number
+                <div class="col-md-3">
+                    <div class="why-us-item text-center wow animate__animated animate__fadeInUp" style="color: #2b414f;">
+                        <i class="fas fa-user-secret"></i>
+                        <h1 class=" mt-3 mb-0">25</h1>
+                        <p class=" mb-0">EMPLOYEES</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="why-us-item text-center wow animate__animated animate__fadeInUp" style="color: #2b414f;">
+                        <i class="fas fa-smile-wink"></i>
+                        <h1 class=" mt-3 mb-0">81</h1>
+                        <p class=" mb-0">HAPPY CLIENTS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="why-us-item text-center wow animate__animated animate__fadeInUp" style="color: #2b414f;">
+                        <i class="fas fa-cube"></i>
+                        <h1 class=" mt-3 mb-0">110</h1>
+                        <p class=" mb-0">CLIENTS PROJECTS</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="why-us-item text-center wow animate__animated animate__fadeInUp" style="color: #2b414f;">
+                        <i class="fas fa-child"></i>
+                        <h1 class=" mt-3 mb-0">13</h1>
+                        <p class=" mb-0">HOME PRODUCTS</p>
+                    </div>
+                </div>
+
+            // footer ma first part Technology
+                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-6">
+                    <h6>Technology</h6>
+                    <ul>
+                        <li><a href="{{url ('services')}}" title="Android" class="footer-li-a">Android</a></li>
+                        <li><a href="{{url ('services')}}" title="iOS" class="footer-li-a">iOS</a></li>
+                        <li><a href="{{url ('services')}}" title="Web Development" class="footer-li-a">Web Development</a></li>
+                        <li><a href="{{url ('services')}}" title="Unity" class="footer-li-a">Unity</a></li>
+                        <li><a href="{{url ('services')}}" title="Social Integraion" class="footer-li-a">Social Integration</a></li>
+                    </ul>
+                </div>
+
+                @forelse($technology as $technologies)
+                    <div class="col-md-6 col-lg-3 col-sm-6 col-xs-6">
+                        <!-- <h6>Technology</h6> -->
+                        <ul>
+                            <li><a href="{!! nl2br(e($technologies->url_links)) !!}" title="{{ $technologies->technology_name }}" class="footer-li-a">{!! nl2br(e($technologies->technology_name)) !!}</a></li>
+                        </ul>
+                    </div>
+                    @empty
+                    <h4 class="">Technology not Available.</h4>
+                @endforelse
+
+            // footer ma second part otherlinks
+                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-6">
+                    <h6>{{ $footerHeaderName2 }}</h6>
+                    <ul>
+                        <li><a href="{{url('/')}}" title="Codelto Technology">Home</a></li>
+                        <li><a href="{{url ('services')}}" title="Services">Services</a></li>
+                        <li><a href="{{url ('whyus')}}" title="Why Us?">Why Us?</a></li>
+                        <li><a href="{{url ('testimonials')}}" title="Testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+                    <h6>&nbsp;</h6>
+                    <ul>
+                        <li><a href="{{url ('contactus')}}" title="Contact Us">Contact Us</a></li>
+                        <li><a href="" title="Privacy Policy">Privacy</a></li>
+                    </ul>
+                </div>
+
+##search data
+controller ma:
+public function contactusSearch($contact_name){
+        return contactus::where('contact_name','like', "%".$contact_name."%")->get();
+       
+    }
+
+api.php:
+Route::get('contactus/{contact_name}', [Usercontroller::class,'contactusSearch']);
